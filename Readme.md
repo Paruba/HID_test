@@ -10,7 +10,7 @@ Tests are located in the src folder. Every test requires two key paths: the libr
 4. Navigate to the folder containing the tests and run:
 ```bash
 robot .
-4. ```
+```
 To run a specific test, use:
 ```bash
 robot -t "name_of_test"
