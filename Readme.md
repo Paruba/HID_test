@@ -44,3 +44,6 @@ If the library is not initialized, the test should return code ```7```, but it r
 This test should return ```5```, but it instead returns a ```TypeError```.
 ## Hash Stop Not Initialized Library
 When the library is not initialized, the result should be ```7```, but the test returns ```0```.
+
+# How fix bugs
+Every function should check if the library was initialized and if the parameters are correct. Based on this information, the function should return a status code. The biggest problem is in the hashing function, specifically in the ```HashContent``` function which generate incorrect hashes.
